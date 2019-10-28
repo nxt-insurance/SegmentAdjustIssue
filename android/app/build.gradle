@@ -127,6 +127,10 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
 
+    packagingOptions {
+        exclude 'META-INF/-no-jdk.kotlin_module'
+    }
+
     defaultConfig {
         applicationId "com.segmentadjustissue"
         minSdkVersion rootProject.ext.minSdkVersion

@@ -15,6 +15,8 @@ import {
   Text,
   StatusBar,
 } from 'react-native';
+import analytics from '@segment/analytics-react-native';
+import Adjust from '@segment/analytics-react-native-adjust';
 
 import {
   Header,
@@ -23,6 +25,23 @@ import {
   DebugInstructions,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+
+const SEGMENT_WRITE_KEY = 'your key';
+
+analytics.setup(SEGMENT_WRITE_KEY, {
+  using: [Adjust],
+  trackAppLifecycleEvents: true,
+  trackAttributionData: true,
+  flushAt: 1,
+  debug: true,
+  ios: {
+    trackAdvertising: true,
+    trackDeepLinks: true,
+  },
+  android: {
+    collectDeviceId: true,
+  },
+});
 
 const App: () => React$Node = () => {
   return (

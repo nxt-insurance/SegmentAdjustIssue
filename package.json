@@ -10,6 +10,8 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@segment/analytics-react-native": "^1.1.0",
+    "@segment/analytics-react-native-adjust": "^1.1.0",
     "react": "16.9.0",
     "react-native": "0.61.2"
   },

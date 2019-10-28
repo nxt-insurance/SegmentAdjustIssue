@@ -939,6 +939,16 @@
     eslint-plugin-react-native "3.6.0"
     prettier "1.16.4"
 
+"@segment/analytics-react-native-adjust@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@segment/analytics-react-native-adjust/-/analytics-react-native-adjust-1.1.0.tgz#b5e5b79fea8026d39e65e2298bd361f91b282fde"
+  integrity sha512-ZO6ZteEbI0tOTJyWd8nK9/CILAYD+PLlCUB6MUKZnx6wPVgNFN4Mtp4uA4toIbQWlXpyCu8V2oL5eyB74S3PZg==
+
+"@segment/analytics-react-native@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@segment/analytics-react-native/-/analytics-react-native-1.1.0.tgz#209c28a7b6f60c80bdce8e7c66bfb26aaeef9ed6"
+  integrity sha512-9a4/uvsP+MebvoLDpUAjeeflgDVQjYaPEYp22JpAZiMlr0Tmsrrbwud/FE/bHeMX6HeLfgeCghhK4GvfeZsc9g==
+
 "@types/babel__core@^7.1.0":
   version "7.1.3"
   resolved "https://registry.yarnpkg.com/@types/babel__core/-/babel__core-7.1.3.tgz#e441ea7df63cd080dfcd02ab199e6d16a735fc30"
